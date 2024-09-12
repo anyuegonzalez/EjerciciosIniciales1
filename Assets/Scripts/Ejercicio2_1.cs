@@ -7,6 +7,7 @@ public class Ejercicio2_1 : MonoBehaviour
     //s
     void Start()
     {
+
         int edad = 19;
         float altura = 16.9f;
         string nombre = "Anyué";

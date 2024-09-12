@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Ejercicio2_5 : MonoBehaviour
 {
-    public int vidasPlayer1 = 1; public int vidasPlayer2 = 2; public int vidasPlayer3 = 3; public int vidasPlayer4 = 4;
+    [SerializeField] int vidasPlayer1 = 1; [SerializeField] int vidasPlayer2 = 2; [SerializeField] int vidasPlayer3 = 3; [SerializeField] int vidasPlayer4 = 4;
 
     void Start()
     {

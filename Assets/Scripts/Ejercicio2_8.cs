@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Ejercicio2_8 : MonoBehaviour
 {
-    public float vidaInicial = 120;
+    [SerializeField] float vidaInicial = 120;
     
     void Start()
     {

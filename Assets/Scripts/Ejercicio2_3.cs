@@ -5,8 +5,8 @@ using UnityEngine;
 public class Ejercicio2_3 : MonoBehaviour
 {
 
-    public int vidas = 5, resultado;
-    public float exp= 3, resultado1;
+    [SerializeField] int vidas = 5, resultado;
+    [SerializeField] float exp= 3, resultado1;
     void Start()
     {
         resultado = vidas * 3;

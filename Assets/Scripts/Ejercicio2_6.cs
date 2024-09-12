@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class Ejercicio2_6 : MonoBehaviour
 {
-    public int puntuacion1 = 3;
-    public int puntuacion2 = 5;
-    public int puntuacion3 = 7;
+    [SerializeField] int puntuacion1 = 3;
+    [SerializeField] int puntuacion2 = 5;
+    [SerializeField] int puntuacion3 = 7;
     void Start()
     {
         

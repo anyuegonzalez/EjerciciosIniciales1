@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class Ejercicio2_2 : MonoBehaviour
 {
-    public int vidas = 5;
-    public float exp = 5;
-    public int resultadoSuma, resultadoResta;
+    [SerializeField] int vidas = 5;
+    [SerializeField] float exp = 5;
+    [SerializeField] int resultadoSuma, resultadoResta;
     //char = 'c';
     void Start()
     {
