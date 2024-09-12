@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Ejercicio2_1 : MonoBehaviour
 {
-    
+    //s
     void Start()
     {
         int edad = 19;
