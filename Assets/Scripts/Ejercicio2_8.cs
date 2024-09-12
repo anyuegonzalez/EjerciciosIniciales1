@@ -5,14 +5,19 @@ using UnityEngine;
 public class Ejercicio2_8 : MonoBehaviour
 {
     [SerializeField] float vidaInicial = 120;
+    [SerializeField] float vidaTotal;
+    [SerializeField] float vidaResta;
     
     void Start()
     {
-        vidaInicial = 120 * 3.6f;
+        vidaTotal = vidaInicial * 0.03f;
+        vidaTotal = vidaInicial - vidaResta;
         Debug.Log(vidaInicial);
-        vidaInicial = 120 * 7.2f;
+        vidaTotal = vidaInicial * 0.06f;
+        vidaTotal = vidaInicial - vidaResta;
         Debug.Log(vidaInicial);
-        vidaInicial = 120 * 10.8f;
+        vidaTotal = vidaInicial * 0.03f;
+        vidaTotal = vidaInicial - vidaResta;
         Debug.Log(vidaInicial);
 
     }
