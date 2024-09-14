@@ -8,8 +8,8 @@ public class Ejercicio3_1 : MonoBehaviour
     void Start()
     {
     
-        Debug.Log(numeroEntero1);
-        Debug.Log(numeroEntero2);
+        Debug.Log("NumeroEntero1: " + numeroEntero1);
+        Debug.Log("NumeroEntero2: " + numeroEntero2);
     }
 
     void Update()

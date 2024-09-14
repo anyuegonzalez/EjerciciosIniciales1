@@ -2,13 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Ejercicio3_2 : MonoBehaviour
+public class Ejercicio4_1 : MonoBehaviour
 {
-    [SerializeField] string nombre;
-
+    [SerializeField]
     void Start()
     {
-        Debug.Log("Bienvenido de nuevo, " +  nombre);
+        
     }
 
     
