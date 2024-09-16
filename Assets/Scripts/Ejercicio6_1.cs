@@ -12,7 +12,7 @@ public class Ejercicio6_1 : MonoBehaviour
         // c) false
         // d) true
         // e) false
-        // f) false
+        // f) true
     }
 
     // Update is called once per frame
