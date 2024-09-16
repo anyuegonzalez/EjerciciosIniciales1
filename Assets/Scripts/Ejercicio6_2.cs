@@ -2,18 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Ejercicio4_5 : MonoBehaviour
+public class Ejercicio6_2 : MonoBehaviour
 {
-    
+   
     void Start()
     {
-        
+        // a) 
     }
 
-    
+   
     void Update()
     {
         
     }
-   
 }
