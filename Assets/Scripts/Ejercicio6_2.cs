@@ -7,7 +7,12 @@ public class Ejercicio6_2 : MonoBehaviour
    
     void Start()
     {
-        // a) 
+        // a) false
+        // b) true
+        // c) false
+        // d) true
+        // e) true
+        //f) false
     }
 
    
