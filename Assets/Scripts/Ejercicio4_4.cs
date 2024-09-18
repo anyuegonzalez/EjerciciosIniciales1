@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Ejercicio4_4 : MonoBehaviour
 {
+    // no se por donde continuar este
     [SerializeField] float velocidadKMh = 120f;
     void Start()
     {

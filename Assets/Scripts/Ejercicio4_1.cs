@@ -19,8 +19,6 @@ public class Ejercicio4_1 : MonoBehaviour
         Debug.Log("El area del circulo es: " + areaCirculo);
         Debug.Log("El area del cuadrado es: " + areaCuadrdado);
     }
-
-    // Update is called once per frame
     void Update()
     {
         

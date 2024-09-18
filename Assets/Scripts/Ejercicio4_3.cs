@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Ejercicio4_3 : MonoBehaviour
 {
+    //no se terminarlo
     [SerializeField] float cantidad;
     [SerializeField] float moneda; 
     [SerializeField] bool euro; 
