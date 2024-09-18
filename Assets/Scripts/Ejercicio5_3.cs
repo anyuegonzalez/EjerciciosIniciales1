@@ -4,13 +4,14 @@ using UnityEngine;
 
 public class Ejercicio5_3 : MonoBehaviour
 {
-    // Start is called before the first frame update
+    [SerializeField] int vidaNumero1;
+    [SerializeField] int vidaNumero2;
     void Start()
     {
-        
+        vidaNumero1 = vidaNumero2;  
     }
 
-    // Update is called once per frame
+   
     void Update()
     {
         
