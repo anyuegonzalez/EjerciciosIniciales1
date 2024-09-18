@@ -19,9 +19,11 @@ public class Ejercicio4_1 : MonoBehaviour
         Debug.Log("El area del circulo es: " + areaCirculo);
         Debug.Log("El area del cuadrado es: " + areaCuadrdado);
     }
+
+    // Update is called once per frame
     void Update()
     {
-
+        
     }
     void CalcularAreaTriangulo()
     {
@@ -35,4 +37,5 @@ public class Ejercicio4_1 : MonoBehaviour
     {
         areaCirculo = Mathf.PI * Mathf.Pow(radio, 2);
     }
+
 }
