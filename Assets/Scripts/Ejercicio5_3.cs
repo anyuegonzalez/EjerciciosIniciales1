@@ -8,7 +8,10 @@ public class Ejercicio5_3 : MonoBehaviour
     [SerializeField] int vidaNumero2;
     void Start()
     {
-        vidaNumero1 = vidaNumero2;  
+        if(vidaNumero1 == vidaNumero2)
+        {
+            Debug.Log("La batalla esta reñida, ambos personajes tienen la misma cantidad de vida");
+        }
     }
 
    

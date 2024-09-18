@@ -8,7 +8,10 @@ public class Ejercicio5_2 : MonoBehaviour
     void Start()
     {
 
-        nivel = 10; 
+        if(nivel == 10)
+        {
+            Debug.Log("El pokemon ha alcanzado un nivel multiplo de 10 y aprende un nuevo ataque");
+        }
     }
 
     
