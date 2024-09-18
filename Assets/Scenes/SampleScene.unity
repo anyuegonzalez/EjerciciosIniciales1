@@ -841,6 +841,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   vidaInicial: 120
+  vidaTotal: 0
+  vidaResta: 0
 --- !u!212 &1889481502
 SpriteRenderer:
   m_ObjectHideFlags: 0
