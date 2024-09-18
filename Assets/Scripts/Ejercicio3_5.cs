@@ -4,10 +4,17 @@ using UnityEngine;
 
 public class Ejercicio3_5 : MonoBehaviour
 {
-    // las mates se me daban mal, es complejo para mi cerebro de letras y humanidades
+    //circunferencia
+    [SerializeField] float radio;
+    [SerializeField] float longitid;
+    [SerializeField] float area;
     void Start()
     {
-        
+        area = Mathf.PI * Mathf.Pow(radio, 2);
+        longitid = 2 * Mathf.PI * radio;
+
+        Debug.Log("El area de la circunferencia es: " + area);
+        Debug.Log("La longitud de la circunferencia es: " + longitid);
     }
 
     
