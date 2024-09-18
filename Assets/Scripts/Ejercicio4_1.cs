@@ -21,7 +21,7 @@ public class Ejercicio4_1 : MonoBehaviour
     }
     void Update()
     {
-        
+
     }
     void CalcularAreaTriangulo()
     {
@@ -29,12 +29,10 @@ public class Ejercicio4_1 : MonoBehaviour
     }
     void CalcularAreaCuadrado()
     {
-       areaCuadrdado = ladoCuadrado* ladoCuadrado;
+        areaCuadrdado = ladoCuadrado * ladoCuadrado;
     }
     void CalcularAreaCirculo()
     {
-       areaCirculo = Mathf.PI * Mathf.Pow(radio, 2);
+        areaCirculo = Mathf.PI * Mathf.Pow(radio, 2);
     }
-
-
 }
