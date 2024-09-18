@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Ejercicio4_4 : MonoBehaviour
 {
-    
+    [SerializeField] float velocidadKMh = 120f;
     void Start()
     {
         
@@ -14,5 +14,9 @@ public class Ejercicio4_4 : MonoBehaviour
     void Update()
     {
         
+    }
+    void ConvertirKMHaMs()
+    {
+        //velocidadKMh = 1000 / 3600;
     }
 }
