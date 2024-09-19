@@ -4,13 +4,16 @@ using UnityEngine;
 
 public class Ejercicio5_8 : MonoBehaviour
 {
-    // Start is called before the first frame update
+    [SerializeField] float horas;
+    [SerializeField] float minutos;
+    [SerializeField] float segundos;
+    
     void Start()
     {
         
     }
 
-    // Update is called once per frame
+   
     void Update()
     {
         
