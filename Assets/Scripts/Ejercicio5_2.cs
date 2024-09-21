@@ -4,17 +4,19 @@ using UnityEngine;
 
 public class Ejercicio5_2 : MonoBehaviour
 {
-    [SerializeField] int nivel;
+   
+    [SerializeField] int numero1;
+    [SerializeField] int numero2;
     void Start()
     {
-
-        if(nivel == 10)
+        if (numero1 < 3 && numero2 < 3)
         {
-            Debug.Log("El pokemon ha alcanzado un nivel multiplo de 10 y aprende un nuevo ataque");
+            Debug.Log("Ambos numeros son menores a 3 ");
         }
+
     }
 
-    
+
     void Update()
     {
         

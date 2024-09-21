@@ -4,22 +4,16 @@ using UnityEngine;
 
 public class Ejercicio5_1 : MonoBehaviour
 {
-    [SerializeField] bool par = true;
-    [SerializeField] int nivel;
+    [SerializeField] int vidaNumero1;
+    [SerializeField] int vidaNumero2;
     void Start()
     {
-        Debug.Log("El nivel del personaje es: " + nivel);
-        if (par == true) 
+        if (vidaNumero1 == vidaNumero2)
         {
-            par = true;
-        }
-        else if (par == false)
-        {
-           par = false;
+            Debug.Log("La batalla esta reñida, ambos personajes tienen la misma cantidad de vida");
         }
     }
 
-    
     void Update()
     {
         

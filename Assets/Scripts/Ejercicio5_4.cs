@@ -4,16 +4,19 @@ using UnityEngine;
 
 public class Ejercicio5_4 : MonoBehaviour
 {
-    [SerializeField ]int numero1;
-    [SerializeField] int numero2;
+  
+    [SerializeField] float numerador;
+    [SerializeField] float divisor;
+    [SerializeField] float resultado;
     void Start()
     {
-        if(numero1 < 3 &&  numero2 < 3)
+        if (divisor != 0)
         {
-            Debug.Log("Ambos numeros son menores a 3 ");
+            resultado = numerador / divisor; // para hacer la division.
+            Debug.Log("El resultado de la division es; " + resultado);
         }
-        
     }
+
     void Update()
     {
         

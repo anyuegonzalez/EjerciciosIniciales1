@@ -4,17 +4,16 @@ using UnityEngine;
 
 public class Ejercicio5_3 : MonoBehaviour
 {
-    [SerializeField] int vidaNumero1;
-    [SerializeField] int vidaNumero2;
+ 
+    [SerializeField] int numero;
     void Start()
     {
-        if(vidaNumero1 == vidaNumero2)
+        if (numero >= 0 && numero <= 9)
         {
-            Debug.Log("La batalla esta reñida, ambos personajes tienen la misma cantidad de vida");
+            Debug.Log("Este numero está entre los numeros 0 y 9");
         }
     }
 
-   
     void Update()
     {
         

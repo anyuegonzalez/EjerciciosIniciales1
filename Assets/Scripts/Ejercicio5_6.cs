@@ -4,17 +4,16 @@ using UnityEngine;
 
 public class Ejercicio5_6 : MonoBehaviour
 {
-    [SerializeField] float numerador;
-    [SerializeField] float divisor;
-    [SerializeField] float resultado;
+    [SerializeField] int nivel;
     void Start()
     {
-        if ( divisor != 0)
+
+        if (nivel == 10)
         {
-            resultado = numerador / divisor; // para hacer la division.
-            Debug.Log("El resultado de la division es; " +  resultado);
+            Debug.Log("El pokemon ha alcanzado un nivel multiplo de 10 y aprende un nuevo ataque");
         }
     }
+
 
 
     void Update()

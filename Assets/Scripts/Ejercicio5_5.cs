@@ -4,12 +4,18 @@ using UnityEngine;
 
 public class Ejercicio5_5 : MonoBehaviour
 {
-    [SerializeField] int numero;
+    [SerializeField] bool par = true;
+    [SerializeField] int nivel;
     void Start()
     {
-        if(numero >= 0 &&  numero <= 9)
+        Debug.Log("El nivel del personaje es: " + nivel);
+        if (par == true)
         {
-            Debug.Log("Este numero está entre los numeros 0 y 9");
+            par = true;
+        }
+        else if (par == false)
+        {
+            par = false;
         }
     }
 
