@@ -2,15 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Ejercicio7_1 : MonoBehaviour
+public class Ejercicio7_3 : MonoBehaviour
 {
-    [SerializeField] int numero = 1;
+  
     void Start()
     {
-        while(numero <= 100)
+        int numero = 100;
+        while (numero >= 1)
         {
             Debug.Log(numero);
-            numero++;
+            numero--;
         }
     }
 
