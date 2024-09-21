@@ -10,7 +10,7 @@ public class Ejercicio7_7 : MonoBehaviour
     [SerializeField] int numero2;
     void Start()
     {
-        // no se como indicarle a unity que el numero Maximo es mayor que el numero minimo
+        //no se como indicarle a unity que el numero Maximo es mayor que el numero minimo
         //numeroMax > numeroMin;
         //numeroMax = numero2 > numero1;   
         //numeroMin = numeroMin < numero2;
