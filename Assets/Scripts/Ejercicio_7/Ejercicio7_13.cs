@@ -19,6 +19,7 @@ public class Ejercicio7_13 : MonoBehaviour
             Debug.Log("No es primo");
         }
     }
+
     /*
     public bool EsPrimo()
     {
