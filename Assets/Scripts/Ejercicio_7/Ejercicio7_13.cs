@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Ejercicio7_13 : MonoBehaviour
 {
+
+    // no se muy bien como terminarlo :(
     [SerializeField] int num = 17;
     bool esPrimo = true;
    
